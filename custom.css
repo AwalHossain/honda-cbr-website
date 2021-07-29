@@ -3,17 +3,31 @@ html,body {
   padding:0;
   overflow-x:hidden;
 }
+a{
+  color: white !important;
+}
 header{
     background: #264653;
-    color: white;
+    color: white ;
 }
 
 
 .btn-bg{
     background: #E76F51;
     color:#fff;
-    padding: 10px 46px;
-    margin-top: 6px;
+
+}
+
+.purchase-btn{
+  color:#fff;
+  padding: 10px 46px;
+  margin-top: 6px;
+}
+
+.login-btn{
+ 
+  margin: 0px 0px 0 100px;
+  padding: 10px 24px;
 }
 
 .feature-color{
@@ -26,6 +40,10 @@ header{
 
 .fa-star{
     color: #E77C40;
+}
+
+.client{
+  margin-top: 150px;
 }
 
 .box-shadow{
