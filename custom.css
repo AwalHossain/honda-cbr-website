@@ -150,3 +150,78 @@ input[type=text], select, textarea {
       margin-top: 0;
     }
   }
+
+
+
+  /*================================ Flat discount section ======================== */
+
+  .content{
+    margin-top: 110px !important;
+    background-color: #000;
+
+}
+
+.tilt{
+  width: 70px;
+  background-color: yellow;
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(40deg);
+  transition: transform .3s;
+}
+.tilt:hover{
+transform: rotate(0deg);
+}
+.part{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: transform .3s;
+}
+
+.part:hover{
+    transform:translateY(-15px);
+    transition: transform .3s;
+}
+
+.text1{
+    font-size: 13px;
+    color: #cbcdcb;
+}
+
+.info{
+    line-height: 17px;
+}
+
+.star{
+    color: #fbc02d;
+}
+
+.cost span{
+    color: #fb3531;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shoe{
+    background-color: #dc3545;
+}
+
+.bagcost span{
+    color: #286783;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bag{
+    background-color: #286783;
+}
+
+.watchcost span{
+    color:#0012b2;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.watch {
+    background-color:#0012b2 ;
+}
