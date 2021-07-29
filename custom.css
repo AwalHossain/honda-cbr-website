@@ -197,31 +197,39 @@ transform: rotate(0deg);
     color: #fbc02d;
 }
 
-.cost span{
+.Honda-SP-cost span{
     color: #fb3531;
     font-weight: bold;
     font-size: 20px;
 }
 
-.shoe{
+.Honda-SP{
     background-color: #dc3545;
 }
 
-.bagcost span{
+.Honda-Livo-cost span{
     color: #286783;
     font-weight: bold;
     font-size: 20px;
 }
-.bag{
+.Honda-Livo{
     background-color: #286783;
 }
 
-.watchcost span{
+.Honda-Grazia-cost span{
     color:#0012b2;
     font-weight: bold;
     font-size: 20px;
 }
 
-.watch {
+.Honda-Grazia {
     background-color:#0012b2 ;
+}
+
+
+
+/* Foooter  */
+.orange-bg{
+  background-color: #292929;
+ color: white;
 }
