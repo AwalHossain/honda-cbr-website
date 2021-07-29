@@ -1,3 +1,8 @@
+ /*================================ 
+ Basic Stylesheet
+ ==================================  */
+
+
 html,body {
   margin:0;
   padding:0;
@@ -161,16 +166,7 @@ input[type=text], select, textarea {
 
 }
 
-.tilt{
-  width: 70px;
-  background-color: yellow;
-  -ms-transform: rotate(20deg); /* IE 9 */
-  transform: rotate(40deg);
-  transition: transform .3s;
-}
-.tilt:hover{
-transform: rotate(0deg);
-}
+
 .part{
     border: none;
     outline: none;
@@ -226,10 +222,15 @@ transform: rotate(0deg);
     background-color:#0012b2 ;
 }
 
-
-
-/* Foooter  */
-.orange-bg{
-  background-color: #292929;
- color: white;
+@media (min-width:720px){
+  .tilt{
+    width: 110px;
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(40deg);
+    transition: transform .3s;
+  }
+  .tilt:hover{
+  transform: rotate(0deg);
+  }
 }
